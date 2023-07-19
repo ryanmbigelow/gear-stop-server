@@ -1,0 +1,38 @@
+[
+  {
+      "model": "gearstopapi.product",
+      "pk": 1,
+      "fields": {
+          "title": "Guitar Strings",
+          "description": "10 gauge, nickle-wound, D'Adario",
+          "quantity_available": "100",
+          "price": "10",
+          "category_id": 1,
+          "seller_id": 1
+      }
+  },
+  {
+      "model": "gearstopapi.product",
+      "pk": 2,
+      "fields": {
+          "title": "Instrument Cable",
+          "description": "20 foot",
+          "quantity_available": "100",
+          "price": 35,
+          "category_id": 1,
+          "seller_id": 1
+      }
+  },
+  {
+      "model": "gearstopapi.product",
+      "pk": 3,
+      "fields": {
+          "title": "Instrument Tuner",
+          "description": "Clip on, LED display",
+          "quantity_available": 50,
+          "price": 20,
+          "category_id": 1,
+          "seller_id": 1
+      }
+  }
+]

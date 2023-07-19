@@ -1,0 +1,9 @@
+[
+  {
+      "model": "gearstopapi.category",
+      "pk": 1,
+      "fields": {
+          "label": "Essentials"
+      }
+  }
+]

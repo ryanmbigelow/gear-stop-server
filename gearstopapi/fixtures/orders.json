@@ -1,0 +1,13 @@
+[
+  {
+      "model": "gearstopapi.order",
+      "pk": 1,
+      "fields": {
+          "is_open": true,
+          "is_shipped": true,
+          "order_total": 20,
+          "payment_method": "Visa Credit Card",
+          "customer_id": 1
+      }
+  }
+]

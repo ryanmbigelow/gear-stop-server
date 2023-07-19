@@ -1,0 +1,11 @@
+[
+  {
+      "model": "gearstopapi.user",
+      "pk": 1,
+      "fields": {
+          "first_name": "Ryan",
+          "last_name": "Bigelow",
+          "uid": "ZMW99a5tAHRtAQROC5sJG8U31k53"
+      }
+  }
+]
