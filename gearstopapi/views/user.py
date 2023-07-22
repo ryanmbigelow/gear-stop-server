@@ -32,20 +32,6 @@ class UserView(ViewSet):
         serializer = UserSerializer(users, many=True)
         return Response(serializer.data)
 
-    def create(self, request):
-        """Handle POST requests to get all users
-
-        Returns:
-            Response -- JSON serialized list of users
-        """
-        user = User.objects.create(
-            first_name=request.data["firstName"],
-            last_name=request.data["lastName"],
-            uid=request.data["uid"]
-        )
-        serializer = UserSerializer(user)
-        return Response(serializer.data)
-
     def update(self, request, pk):
         """Handle PUT requests to get all users
 

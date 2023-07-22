@@ -63,7 +63,7 @@ class ProductView(ViewSet):
         product.description = request.data["description"]
         product.quantity_available = request.data["quantityAvailable"]
         product.price = request.data["price"]
-        category_id = User.objects.get(pk=request.data["categoryId"])
+        category_id = Category.objects.get(pk=request.data["categoryId"])
         product.category_id = category_id
         seller_id = User.objects.get(pk=request.data["sellerId"])
         product.seller_id = seller_id

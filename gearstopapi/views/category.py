@@ -67,7 +67,7 @@ class CategoryView(ViewSet):
         return Response(None, status=status.HTTP_204_NO_CONTENT)
 
 class CategorySerializer(serializers.ModelSerializer):
-  """JSON serializer for orders"""
+  """JSON serializer for categories"""
   
   class Meta:
       model = Category
