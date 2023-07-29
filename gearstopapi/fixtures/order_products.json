@@ -1,0 +1,12 @@
+[
+  {
+      "model": "gearstopapi.orderproduct",
+      "pk": 1,
+      "fields": {
+          "order_id": 3,
+          "product_id": 5,
+          "quantity": 2,
+          "total": 20
+      }
+  }
+]
